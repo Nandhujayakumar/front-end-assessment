@@ -1,0 +1,273 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+   
+  
+  }
+
+  .full-width {
+    width: 100%;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 60px;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .navbar-logo img {
+    height: 60px;
+    width: auto;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin: 0;
+    padding: 10px 15px;  
+  }
+  
+  .nav-item a {
+    color: #838995;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+
+  }
+
+  #login {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+  }
+
+   #register-link {
+    background-color: #7337d4;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-left:15px;
+  }
+  #register-link a {
+    color: white;
+  }
+
+  #login a {
+    color: #7337d4;
+  }
+
+  .banner img{
+    padding-left:100px;
+    max-width: 100%;
+    height: auto;
+   
+  }
+
+  
+
+
+  .popular{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    
+  }
+  .popular h2{
+    color: #3C444C;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 30px;
+  }
+
+  .brand-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .brand-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .brand-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .brand-item p {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+
+  .pop-categories{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .pop-categories h2{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 30px;
+    color: #3C444C;
+  }
+
+
+  .categories-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .category-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .category-item p {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+
+
+
+  .featured{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .featured h2{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 50px;
+    color: #3C444C;
+  }
+
+
+
+
+  .product-list, .pro-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .product-image {
+    height: 200px;
+  width: 200px;
+  object-fit: cover;
+  }
+  
+  .product-name {
+    margin: 10px 0;
+    font-size: 1.0rem;
+    font-weight: bold;
+  }
+  
+  .product-discounted-price {
+    margin:  0;
+    font-size: 1rem;
+    font-weight: semibold;
+  }
+  
+  .product-rating {
+    margin: 5px 0;
+    font-size: 0.8rem;
+    color: #ede411;
+  
+  }
+  
+  .product-actual-price {
+    text-decoration: line-through;
+    font-size: 1rem;
+    color: #999;
+  }
+  
+  .buy-button {
+    background-color: black;
+    text-color:white;
+    color: #fff;
+    padding: 5px 20px;
+    font-weight: semibold;
+    margin-top: 10px;
+    cursor: pointer;
+  
+  }
+  
+  .like-button {
+    background-color: white;
+    border: none;
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+  }
+
+  .liked {
+    background-color: red;
+  }
+  
+
+
+  .smartphones{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .smartphones h2{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 50px;
+    color: #3C444C;
+  }
+
+
+
+
+
